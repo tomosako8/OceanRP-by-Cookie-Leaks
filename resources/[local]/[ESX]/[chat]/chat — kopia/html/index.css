@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.12.0/css/all.css');
+.color-0 {
+  color: #ffffff;
+}
+.color-1 {
+  color: #ff4444;
+}
+.color-2 {
+  color: #99cc00;
+}
+.color-3 {
+  color: #ffbb33;
+}
+.color-4 {
+  color: #0099cc;
+}
+.color-5 {
+  color: #33b5e5;
+}
+.color-6 {
+  color: #aa66cc;
+}
+.color-8 {
+  color: #cc0000;
+}
+.color-9 {
+  color: #cc0068;
+}
+
+.no-grow {
+  flex-grow: 0;
+}
+body {
+  overflow: hidden;
+}
+em {
+  font-style: normal;
+}
+
+#app {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+}
+
+.chat-message-body {
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.4);
+  padding-top: 10px;
+  margin-left: 10px;
+  padding-bottom: 10px;
+}
+
+.chat-message.id_card {
+  background-color: rgba(20, 20, 20, 0.85);
+  border-radius: 5px;
+}
+
+.chat-message.wizytowka {
+  background-color: rgba(20, 20, 20, 0.85);
+  border-radius: 5px;
+}
+
+.chat-window {
+  font-family: 'Poppins', sans-serif;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 600px;
+  height: 200px;
+  text-shadow: none;
+}
+
+.chat-messages {
+  position: relative;
+  height: 100%;
+  width: 600px;
+  font-size: 1.2rem;
+
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+  font-size: 16px;
+}
+
+.chat-input {
+  font-size: 1.2rem;
+  position: absolute;
+  border-radius: 5px;
+  top: 290px;
+  left: 15px;
+  width: 600px;
+  box-sizing: border-box;
+}
+
+.suggestion p {
+  margin: 0;
+}
+
+.prefix {
+  position: absolute;
+  margin-top: 2px;
+  left: 4px;
+}
+
+textarea {
+  font-size: 1.1rem;
+  display: block;
+  box-sizing: border-box;
+  padding: 10px;
+  text-shadow: none;
+  color: white;
+  background-color: rgba(20, 20, 20, 0.85);
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  border-width: 0;
+  height: 36px;
+  min-height: 36px;
+  font-size: 14px;
+  overflow: hidden;
+  border-radius: 5px;
+  font-weight: 400;
+}
+
+::-webkit-resizer {
+  display: none;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+.msg {
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 10px;
+  word-break: break-all;
+  font-size: 14px;
+}
+
+.suggestions {
+  list-style-type: none;
+  font-size: 1.1rem;
+  box-sizing: border-box;
+  color: white;
+  width: 100%;
+  background-color: transparent;
+  padding: 5px;
+  margin: 0;
+  padding-left: 20px;
+  padding-top: 8px;
+  border-radius: 5px;
+  font-weight: 400;
+}
+.suggestions-wrap {
+  font-family: 'Poppins', sans-serif;
+  background-color: rgba(20, 20, 20, 0.85);
+  bottom: auto;
+  padding: 0;
+  width: 600px;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+.default {
+  background-color: rgba(20, 20, 20, 0.85);
+  padding: 10px;
+  border-radius: 5px;
+}
+.help {
+  color: #b0bbbd;
+}
+
+.disabled {
+  color: #b0bbbd;
+}
+
+.suggestion {
+  font-size: 12px;
+  margin-bottom: 5px;
+  text-shadow: none;
+}
+.linecode {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 14px;
+}
+.card-header-img {
+  position: absolute;
+  width: 392px;
+}
+.topright {
+  z-index: 2;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+.bottomright {
+  z-index: 2;
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+}
+
+@media only screen and (max-width: 1601px) {
+  .chat-window {
+    transform: scale(0.7);
+    left: -80px;
+    top: -20px;
+  }
+  .chat-input {
+    transform: scale(0.7);
+    left: -80px;
+    top: 170px;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+.gym {
+  z-index: 1;
+  position: relative;
+}
+.gymText {
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  left: 219px;
+  /* top: -10%; */
+  top: 175px;
+  display: flex;
+  z-index: 2;
+  color: black;
+}
+.gymTextId {
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  left: 330px;
+  /* top: -10%; */
+  top: 3px;
+  display: flex;
+  z-index: 2;
+  color: white;
+  font-size: 20px;
+}
