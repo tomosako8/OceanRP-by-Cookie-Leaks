@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
+@font-face {
+	font-family: pcdown;
+	src: url('../fonts/pdown.ttf');
+}
+
+.menu {
+	font-family: 'Source Sans Pro', sans-serif;
+	min-width: 16%;
+	color: #fff;
+  position: absolute;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.menu.align-left {
+	left: 30;
+	top: 53%;
+	transform: translate(0, -50%);
+}
+
+.menu.align-top-left {
+	left: 40;
+	top: 40;
+}
+
+.menu.align-top {
+	left: 50%;
+	top: 40;
+	transform: translate(-50%, 0);
+}
+
+.menu.align-top-right {
+	right: 10;
+	top: 40;
+}
+
+.menu.align-right {
+	right: 40;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+.menu.align-bottom-right {
+	right: 40;
+	bottom: 40;
+}
+
+.menu.align-bottom {
+	left: 50%;
+	bottom: 40;
+	transform: translate(-50%, 0);
+}
+
+.menu.align-bottom-left {
+	left: 40;
+	bottom: 40;
+}
+
+.menu.align-center {
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.menu .head {
+	background-image: linear-gradient(to left, #0e718b, #98d4e0);
+  background-size: 200% 200%;
+  background-position: 100% 100%;
+  border-radius: 15px 15px 0px 0px;
+	text-align: center;
+	height: 40px;
+  line-height: 40px;
+  -webkit-animation: AnimationName 5s ease infinite;
+  -moz-animation: AnimationName 5s ease infinite;
+  animation: AnimationName 5s ease infinite;
+}
+
+.menu .menu-items {
+	max-height: 27vw;
+  overflow-y: auto;
+  text-transform: uppercase;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.menu .menu-items .menu-item {
+	height: 1.8vw;
+	display: block;
+	background-color: rgba(10, 10, 10, 0.5);
+	height: 1.8vw;
+	line-height: 1.8vw;
+	color: rgba(255, 255, 255, 0.95);
+	text-align: center;
+	-border-radius: 0px 0px 15px 15px;
+}
+
+.menu .menu-items .menu-item.selected {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: rgba(0, 0, 0, 1);
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
+#element::-webkit-scrollbar {
+  display: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
